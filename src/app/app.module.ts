@@ -29,7 +29,9 @@ import { AboutComponent } from './about';
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
-import '../styles/styles.scss';
+import { NavbarComponent } from './navbar/navbar.component';
+
+import '../styles/main.css';
 import '../styles/headings.css';
 
 // Application wide providers
@@ -54,7 +56,8 @@ type StoreType = {
     AboutComponent,
     HomeComponent,
     NoContentComponent,
-    XLargeDirective
+    XLargeDirective,
+    NavbarComponent
   ],
   /**
    * Import Angular's modules.
