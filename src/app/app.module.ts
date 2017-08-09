@@ -30,6 +30,7 @@ import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
 import { NavbarComponent } from './navbar/navbar.component';
+import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 
 import '../styles/main.css';
 import '../styles/headings.css';
@@ -57,7 +58,8 @@ type StoreType = {
     HomeComponent,
     NoContentComponent,
     XLargeDirective,
-    NavbarComponent
+    NavbarComponent,
+    TopNavbarComponent
   ],
   /**
    * Import Angular's modules.

@@ -12,8 +12,9 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor(
-  ) {}
+  constructor() {
+
+  }
 
   public ngOnInit() {
     

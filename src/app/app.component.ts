@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 import { AppState } from './app.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 
 /**
  * App Component
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 @Component({
   selector: 'app',
   providers: [
-    NavbarComponent
+    NavbarComponent,
+    TopNavbarComponent
   ],
   encapsulation: ViewEncapsulation.None,
   styleUrls: [
